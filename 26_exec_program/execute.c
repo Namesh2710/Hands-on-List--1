@@ -5,7 +5,7 @@ int main()
 {
     printf("Executing hello program...\n");
 
-    execl("./hello", "hello", "Ujjawal", NULL);
+    execl("./hello", "hello", "Namesh", NULL);
 
     perror("execl");
 
